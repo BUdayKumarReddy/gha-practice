@@ -4,9 +4,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  hello:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Raja
         run: echo "I love you bro"
+
+  test:
+      runs-on: ubuntu-latest
+      needs: build
+      steps:
+        - name: uday
+          run: echo "i love u too bro""
