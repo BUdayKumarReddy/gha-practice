@@ -1,0 +1,12 @@
+name: uday1st-gha
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Raja
+        run: echo "I love you bro"
