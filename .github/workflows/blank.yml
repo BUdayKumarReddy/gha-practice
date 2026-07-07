@@ -16,4 +16,4 @@ jobs:
       needs: build
       steps:
         - name: uday
-          run: echo "i love u too bro""
+          run: echo "i love u too bro"
